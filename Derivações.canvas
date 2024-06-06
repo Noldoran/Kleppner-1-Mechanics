@@ -1,0 +1,1142 @@
+{
+  "nodes": [
+    {
+      "id": "39813cc541cdc2b3",
+      "type": "group",
+      "x": -2120,
+      "y": 2940,
+      "width": 3000,
+      "height": 3900,
+      "label": "Kleppner - Capítulo 4"
+    },
+    {
+      "id": "95041c3fe39c0bcc",
+      "type": "group",
+      "x": -2040,
+      "y": -520,
+      "width": 1240,
+      "height": 6280,
+      "label": "Coordenadas Polares"
+    },
+    {
+      "id": "cef79dd0b28d0819",
+      "type": "group",
+      "x": -120,
+      "y": -520,
+      "width": 940,
+      "height": 7280,
+      "label": "Coordenadas Cartesianas"
+    },
+    {
+      "id": "a0c6a7d9da3b5f5d",
+      "type": "group",
+      "x": -2120,
+      "y": -680,
+      "width": 3000,
+      "height": 2160,
+      "label": "Kleppner - Capítulo 1"
+    },
+    {
+      "id": "37d454d57752ddca",
+      "type": "group",
+      "x": -20,
+      "y": 540,
+      "width": 760,
+      "height": 920,
+      "color": "3",
+      "label": "Movimento Uniformemente Acelerado"
+    },
+    {
+      "id": "404f3244b92478c7",
+      "type": "group",
+      "x": -2600,
+      "y": 1520,
+      "width": 435,
+      "height": 260,
+      "label": "Legenda"
+    },
+    {
+      "id": "a8b12787b29b052d",
+      "type": "text",
+      "text": "$$\\vec{a} = \\hat{r}(\\ddot{r} - r\\dot{\\theta}^2) + \\hat{\\theta}(2\\dot{r}\\dot{\\theta} + r\\ddot{\\theta})\n$$\nIdentificamos os seguintes termos: \n- $\\ddot{r}$ é simplesmente a aceleração puramente radial\n - $-r\\dot{\\theta}^2$ representa a [[aceleração centrípeta]] do corpo\n - $2\\dot{r}\\dot{\\theta}$ é a [[aceleração de Coriolis]]\n - $r\\ddot{\\theta}$ representa a [[aceleração tangencial]] do corpo, que ocorre devido à mudança da [[velocidade tangencial]]",
+      "x": -1520,
+      "y": 640,
+      "width": 500,
+      "height": 320,
+      "color": "1"
+    },
+    {
+      "id": "5100a1454df72984",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\vec{a} &= (\\ddot{r}\\hat{r} + \\dot{r}\\dot{\\theta}\\hat{\\theta}) + (\\dot{r} \\dot{\\theta} \\hat{\\theta} + r \\ddot{\\theta} \\hat{\\theta} + r \\dot{\\theta} [-\\dot{\\theta}\\hat{r}])\n \\\\\n&= \\ddot{r}\\hat{r} + 2\\dot{r}\\dot{\\theta}\\hat{\\theta} + r\\ddot{\\theta} \\hat{\\theta} - r\\dot{\\theta}^2\\hat{r}\n\\end{align}$$",
+      "x": -1500,
+      "y": 480,
+      "width": 460,
+      "height": 140
+    },
+    {
+      "id": "bbb3a630e233e330",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\vec{a} &= \\frac{d}{dt} (\\dot{r}\\hat{r}) + \\frac{d}{dt} (r\\dot{\\theta}\\hat{\\theta}) \\\\\n&= (\\ddot{r}\\hat{r} + \\dot{r}\\dot{\\hat{r}}) + (\\dot{r} \\dot{\\theta} \\hat{\\theta} + r \\ddot{\\theta} \\hat{\\theta} + r \\dot{\\theta} \\dot{\\hat{\\theta}})\n\\end{align}$$",
+      "x": -1460,
+      "y": 220,
+      "width": 380,
+      "height": 160
+    },
+    {
+      "id": "253002c2f3f93ab4",
+      "type": "text",
+      "text": "O vetor $\\vec{r}(t)$ define a posição de um corpo no instante $t$ em coordenadas polares.",
+      "x": -1460,
+      "y": -500,
+      "width": 380,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "6d10cd6b5ef7a3a5",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\vec{v} &= \\dot{r} \\hat{r} + r \\dot{\\theta}\\hat{\\theta}\n\\end{align}$$\nOnde $\\dot{r}\\hat{r}$ representa o componente **radial** da velocidade e $r\\dot{\\theta}\\hat{\\theta}$ representa seu componente **tangencial**.",
+      "x": -1440,
+      "y": 0,
+      "width": 340,
+      "height": 200,
+      "color": "1"
+    },
+    {
+      "id": "3a460e2176f0ade7",
+      "type": "file",
+      "file": "Excalidraw/Drawing 2024-03-28 16.15.48.excalidraw.svg",
+      "x": -1040,
+      "y": -140,
+      "width": 219,
+      "height": 160,
+      "color": "6"
+    },
+    {
+      "id": "7505048e0b1add48",
+      "type": "text",
+      "text": "$$\\vec{v}(\\theta) = \\dot{r} \\hat{r}(\\theta) + r \\dot{\\hat{r}}(\\theta) $$",
+      "x": -1400,
+      "y": -180,
+      "width": 260,
+      "height": 100
+    },
+    {
+      "id": "657ca7eee66d09ee",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\dot{\\hat{r}} &= \\dot{\\theta}\\hat{\\theta} \\\\\n\\dot{\\hat{\\theta}} &= -\\dot{\\theta}\\hat{r}\n\\end{align}$$",
+      "x": -1000,
+      "y": 200,
+      "width": 140,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "a4926c5038052b94",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\dot{\\hat{\\theta}} &= \\frac{d}{dt}(-\\hat{i}\\sin\\theta + \\hat{j}\\cos\\theta) \\\\\n&= -\\hat{i}\\frac{d}{dt}\\sin\\theta + \\hat{j}\\frac{d}{dt}\\cos\\theta\n\\end{align}$$\nAplica-se a [[regra da cadeia]]\n$$\\begin{align}\n\\dot{\\hat{\\theta}} &= -\\hat{i}\\dot{\\theta}\\cos\\theta + \\hat{j}\\dot{\\theta}(-\\sin\\theta) \\\\\n&= -\\dot{\\theta} \\underbrace{\\left( \\hat{i}\\cos\\theta + \\hat{j}\\sin\\theta \\right)}_{\\hat{r}}\n\\end{align}$$",
+      "x": -760,
+      "y": -240,
+      "width": 300,
+      "height": 360
+    },
+    {
+      "id": "8a89b9e86662f802",
+      "type": "text",
+      "text": "A taxa de mudança de $\\theta$ com respeito a $t$ define a velocidade angular $\\dot{\\theta}(t) = \\omega(t)$",
+      "x": -1980,
+      "y": -160,
+      "width": 360,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "54fbc7d90977f8a2",
+      "type": "text",
+      "text": "A taxa de mudança de $\\vec{v}$ com respeito a $t$ define a aceleração $\\ddot{\\vec{r}}(t) = \\dot{\\vec{v}}(t) = \\vec{a}(t)$",
+      "x": -1740,
+      "y": -380,
+      "width": 380,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "9d59307f604e6119",
+      "type": "file",
+      "file": "Definitions and Laws/Terceira Lei de Newton.md",
+      "x": -660,
+      "y": 3620,
+      "width": 400,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "155c0f42ea324d6b",
+      "type": "file",
+      "file": "Definitions and Laws/Centro de Massa.md",
+      "x": -760,
+      "y": 5080,
+      "width": 600,
+      "height": 300,
+      "color": "2"
+    },
+    {
+      "id": "84e26e89b2fbf35b",
+      "type": "file",
+      "file": "Definitions and Laws/Momento Linear.md",
+      "x": -760,
+      "y": 3140,
+      "width": 609,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "3d4d7522ac04230c",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\dot{\\hat{r}} &= \\frac{d}{dt}(\\hat{i}\\cos\\theta + \\hat{j}\\sin\\theta) \\\\\n&= \\hat{i}\\frac{d}{dt}\\cos\\theta + \\hat{j}\\frac{d}{dt}\\sin\\theta\n\\end{align}$$\nAplica-se a [[regra da cadeia]]\n$$\\begin{align}\n\\dot{\\hat{r}} &= -\\hat{i}\\dot{\\theta}\\sin\\theta + \\hat{j}\\dot{\\theta}\\cos\\theta \\\\\n&= \\dot{\\theta} \\underbrace{\\left( -\\hat{i}\\sin\\theta + \\hat{j}\\cos\\theta \\right)}_{\\hat{\\theta}}\n\\end{align}$$",
+      "x": -440,
+      "y": -240,
+      "width": 280,
+      "height": 360
+    },
+    {
+      "id": "523906696324e53a",
+      "type": "text",
+      "text": "$\\int_{t_{0}}^{t_{1}} \\, dt$",
+      "x": 20,
+      "y": -120,
+      "width": 100,
+      "height": 60,
+      "color": "#000000"
+    },
+    {
+      "id": "590971c39451ab67",
+      "type": "text",
+      "text": "$$\\frac{d}{dt} \\vec{s} = \\vec{v}$$",
+      "x": 0,
+      "y": -260,
+      "width": 140,
+      "height": 120
+    },
+    {
+      "id": "c8dcc488237698b2",
+      "type": "file",
+      "file": "Definitions and Laws/Lei de Hooke.md",
+      "x": -720,
+      "y": 2420,
+      "width": 520,
+      "height": 219,
+      "color": "2"
+    },
+    {
+      "id": "56e7e6141d8a6a5a",
+      "type": "text",
+      "text": "Imagina-se agora um objeto sólido dividido em $n$ partes infinitesimalmente pequenas. Conforme $n \\to \\infty$, o tamanho de cada parte se aproxima de zero, definindo um integral:\n$$\\vec{R} = \\lim\\limits_{n \\to \\infty} \\frac{1}{M} \\sum_{i=1}^{n} m_{i} \\vec{r}_{i} = \\frac{1}{M} \\int_{V} \\vec{r} \\, dm$$\n",
+      "x": 20,
+      "y": 5340,
+      "width": 520,
+      "height": 215
+    },
+    {
+      "id": "da8a01d09da4a468",
+      "type": "text",
+      "text": "$$\\begin{array}{ l | l }\n\\\\\nr = \\sqrt{x^2 + y^2}  \\quad&\\quad  x = r\\cos\\theta \\\\\n\\theta = \\arctan \\frac{y}{x}  \\quad&\\quad  y = r\\sin\\theta \\\\\n\\\\\n\\end{array}$$\n![[Drawing 2024-03-12 14.04.20.excalidraw.svg]]",
+      "x": -680,
+      "y": -1080,
+      "width": 440,
+      "height": 600,
+      "color": "2"
+    },
+    {
+      "id": "7ea00172ed4dff4b",
+      "type": "text",
+      "text": "Define-se $\\rho(\\vec{r})$ como a densidade do objeto na posição $\\vec{r}$, tal que $dm = \\rho \\, dV$.",
+      "x": 300,
+      "y": 5580,
+      "width": 360,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "0ec7c73c5fbcf5db",
+      "type": "file",
+      "file": "Definitions and Laws/Lei da Gravitação Universal de Newton.md",
+      "x": -760,
+      "y": 1860,
+      "width": 600,
+      "height": 260,
+      "color": "2"
+    },
+    {
+      "id": "cb7bc53fac4ad1f6",
+      "type": "text",
+      "text": "A taxa de mudança de $\\omega$ com respeito a $t$ define a aceleração angular $\\ddot{\\theta}(t) = \\dot{\\omega}(t) = \\vec{\\alpha}(t)$",
+      "x": -2020,
+      "y": -260,
+      "width": 440,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "8e3094403113d25e",
+      "type": "file",
+      "file": "Definitions and Laws/Lei de Coulomb.md",
+      "x": -760,
+      "y": 2140,
+      "width": 600,
+      "height": 240,
+      "color": "2"
+    },
+    {
+      "id": "be452d2529ab8e4a",
+      "type": "file",
+      "file": "Definitions and Laws/Segunda Lei de Newton.md",
+      "x": -740,
+      "y": 1520,
+      "width": 540,
+      "height": 300,
+      "color": "2"
+    },
+    {
+      "id": "88788f2da5e56c7a",
+      "type": "text",
+      "text": "## Equação Notável",
+      "x": -2580,
+      "y": 1700,
+      "width": 274,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "3f4c83966b57f695",
+      "type": "text",
+      "text": "## Comentário",
+      "x": -2580,
+      "y": 1620,
+      "width": 200,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "2dd1e91474ae9985",
+      "type": "text",
+      "text": "## Definição/Lei",
+      "x": -2580,
+      "y": 1540,
+      "width": 220,
+      "height": 58,
+      "color": "2"
+    },
+    {
+      "id": "6f101e221c44a686",
+      "type": "text",
+      "text": "## Restrição",
+      "x": -2360,
+      "y": 1620,
+      "width": 175,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "7b889fd907b36b5a",
+      "type": "text",
+      "text": "$\\int_{t_{0}}^{t_{1}} \\, dt$",
+      "x": 560,
+      "y": -120,
+      "width": 100,
+      "height": 60,
+      "color": "#000000"
+    },
+    {
+      "id": "f06a4374711bb8d4",
+      "type": "text",
+      "text": "$$\\frac{d}{dt} \\vec{v} = \\vec{a}$$",
+      "x": 540,
+      "y": -260,
+      "width": 140,
+      "height": 120
+    },
+    {
+      "id": "f9cf5d23f10ed07f",
+      "type": "text",
+      "text": "$$\\vec{s} = x \\hat{i} + y \\hat{j}$$",
+      "x": 240,
+      "y": -260,
+      "width": 180,
+      "height": 100,
+      "color": "2"
+    },
+    {
+      "id": "36059efab307cf70",
+      "type": "text",
+      "text": "A taxa de mudança de $\\vec{v}$ com respeito a $t$ define a aceleração $\\ddot{\\vec{s}}(t) = \\dot{\\vec{v}}(t) = \\vec{a}(t)$",
+      "x": 420,
+      "y": -380,
+      "width": 380,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "985f21f38e0d0e85",
+      "type": "text",
+      "text": "$$\\vec{F} = \\frac{d}{dt} \\vec{p}$$",
+      "x": -100,
+      "y": 4300,
+      "width": 160,
+      "height": 123,
+      "color": "1"
+    },
+    {
+      "id": "edb9abe6575eb7a5",
+      "type": "text",
+      "text": "Utilizando da [[Linearidade da Diferenciação]], sabe-se que a soma das derivadas do momento de cada partícula é igual à derivada da soma desses momentos.\n$$\\sum_{i=1}^{n} \\frac{d}{dt} \\vec{P}_{i} = \\frac{d}{dt} \\vec{P}$$\n",
+      "x": 500,
+      "y": 4000,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "id": "64a8ded7f75a2c03",
+      "type": "text",
+      "text": "$\\sum\\vec{F}_{i}^{\\text{ext}} \\equiv \\vec{F}_{\\text{ext}}$",
+      "x": 100,
+      "y": 4080,
+      "width": 160,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "007b2a228c99394d",
+      "type": "text",
+      "text": "Aplicando a [[Leis de Newton#Terceira Lei|Terceira Lei de Newton]], sabe-se que para cada força dentro de um sistema, deve existir uma força que a cancela. Dessa forma, podemos anular a soma das forças internas quando se considera o sistema como um todo:\n$$\\sum_{i=1}^{n} \\vec{F}_{i}^{\\text{ext}} = \\sum_{i=1}^{n} \\frac{d}{dt} \\vec{P}_{i}$$",
+      "x": 80,
+      "y": 3780,
+      "width": 400,
+      "height": 280
+    },
+    {
+      "id": "654d103c26b632ea",
+      "type": "text",
+      "text": "$$\\vec{s}_{1} = \\vec{s}_{0} + \\int_{t_{0}}^{t_{1}} \\vec{v}(t) \\, dt $$",
+      "x": -60,
+      "y": 300,
+      "width": 260,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "c40c55d5fd76ba71",
+      "type": "text",
+      "text": "$$\\vec{s}(t_{1}) - \\vec{s}(t_{0}) = \\int_{t_{0}}^{t_{1}} \\vec{v}(t) \\, dt $$",
+      "x": -80,
+      "y": 0,
+      "width": 300,
+      "height": 140
+    },
+    {
+      "id": "485b668c84918f84",
+      "type": "text",
+      "text": "Usaremos a notação $\\vec{v}(t_{n}) = \\vec{v}_{n}$ para simplicidade",
+      "x": 200,
+      "y": 180,
+      "width": 300,
+      "height": 86,
+      "color": "6"
+    },
+    {
+      "id": "11051c4f7c5aac67",
+      "type": "text",
+      "text": "$$\\vec{v}_{1} = \\vec{v}_{0} + \\int_{t_{0}}^{t_{1}} \\vec{a}(t) \\, dt$$",
+      "x": 480,
+      "y": 300,
+      "width": 260,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "afec30ad34522d04",
+      "type": "text",
+      "text": "$$\\vec{v}(t_{1}) - \\vec{v}(t_{0}) = \\int_{t_{0}}^{t_{1}} \\vec{a}(t) \\, dt$$",
+      "x": 460,
+      "y": 0,
+      "width": 300,
+      "height": 140
+    },
+    {
+      "id": "168e2eb118bfd725",
+      "type": "text",
+      "text": "A taxa de mudança de $\\vec{s}$ com respeito a $t$ define a velocidade $\\dot{\\vec{s}}(t) = \\vec{v}(t)$",
+      "x": -100,
+      "y": -380,
+      "width": 340,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "7ac99b5d8b0a4a2a",
+      "type": "text",
+      "text": "$$\\vec{F} = \\frac{d}{dt} \\vec{p}$$",
+      "x": -100,
+      "y": 3300,
+      "width": 160,
+      "height": 123,
+      "color": "1"
+    },
+    {
+      "id": "de94596f31ec7e08",
+      "type": "text",
+      "text": "Expressa-se então a equação do movimento de uma dada partícula $i$ como\n$$\\vec{F}_{i}^{\\text{int}} + \\vec{F}_{i}^{\\text{ext}} = \\frac{d}{dt} \\vec{P}_{i}$$\nAssim, para o sistema de $n$ partículas,\n$$\\sum_{i=1}^{n} \\vec{F}_{i}^{\\text{int}} + \\sum_{i=1}^{n} \\vec{F}_{i}^{\\text{ext}} = \\sum_{i=1}^{n} \\frac{d}{dt} \\vec{P}_{i}$$",
+      "x": 120,
+      "y": 3380,
+      "width": 380,
+      "height": 320
+    },
+    {
+      "id": "0833b77acd03b8b0",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\vec{F} &= m\\vec{a} \\\\\n\\vec{F} &= m \\frac{d}{dt} \\vec{v} \\\\\n\\vec{F} &= \\frac{d}{dt} (m\\vec{v})\n\n\n\\end{align}$$",
+      "x": -60,
+      "y": 2980,
+      "width": 200,
+      "height": 217
+    },
+    {
+      "id": "22dc2bf981c1908e",
+      "type": "file",
+      "file": "Definitions and Laws/Segunda Lei de Newton.md",
+      "subpath": "#^3c59ab",
+      "x": -420,
+      "y": 3000,
+      "width": 188,
+      "height": 110,
+      "color": "2"
+    },
+    {
+      "id": "783461ec89e9635d",
+      "type": "text",
+      "text": "[[Oscilador Harmônico]]\n$$\\ddot{x} + \\omega^2 x = 0$$",
+      "x": 360,
+      "y": 2640,
+      "width": 220,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "0fd88ab2ac0f92d8",
+      "type": "text",
+      "text": "Definindo $\\Delta x = 0$ no equilíbrio,\n$$\\begin{align}\nF &= -kx \\\\\nm\\ddot{x} &= -kx \\\\\nm\\ddot{x} + kx &= 0 \\\\\n\\ddot{x} + \\frac{k}{m}x &= 0\n\\end{align}$$",
+      "x": 20,
+      "y": 2380,
+      "width": 300,
+      "height": 260
+    },
+    {
+      "id": "83baf90b50187f82",
+      "type": "text",
+      "text": "$$\\omega \\equiv \\sqrt{\\frac{k}{m}}$$",
+      "x": 380,
+      "y": 2340,
+      "width": 173,
+      "height": 137,
+      "color": "2"
+    },
+    {
+      "id": "e86929dc2af4e3ce",
+      "type": "text",
+      "text": "$$\\vec{R} = \\frac{1}{M} \\int_{V} \\vec{r}\\rho \\, dV$$\nIsso é chamado de um integral de volume. Para enfatizar que a integração acontece ao longo das três dimensões de coordenadas, pode ser expresso na forma\n$$\\vec{R} = \\frac{1}{M} \\iiint_{V} \\vec{r} \\rho \\, dV $$",
+      "x": -60,
+      "y": 5680,
+      "width": 500,
+      "height": 320
+    },
+    {
+      "id": "0154e5ab4231163e",
+      "type": "text",
+      "text": "Imagina-se um sistema de $n$ partículas, tal que cada partícula $i$ é sujeita a uma soma de forças\n$$\\vec{F}_{i} = \\vec{F}_{i}^{\\text{int}} + \\vec{F}_{i}^{\\text{ext}}$$\n$\\vec{F}_{i}^{\\text{int}}$ representa a soma das forças internas agindo sobre a partícula - Isto é, as forças exercidas por outras partículas pertencentes ao sistema.\n$\\vec{F}_{i}^{\\text{ext}}$, por outro lado, representa a soma de forças cujas fontes são externas ao sistema.",
+      "x": 160,
+      "y": 2980,
+      "width": 442,
+      "height": 320
+    },
+    {
+      "id": "04cf039dd4ddb568",
+      "type": "text",
+      "text": "$$\\vec{F}_{\\text{ext}} = \\frac{d}{dt} \\vec{P}$$\nObserva-se a analogia com a equação para uma única partícula. Esse resultado demonstra que se pode tratar o movimento de um sistema da mesma forma que se trata uma única partícula.",
+      "x": 80,
+      "y": 4220,
+      "width": 400,
+      "height": 280
+    },
+    {
+      "id": "2f6639db5d25da50",
+      "type": "text",
+      "text": "Tratando o sistema então como uma partícula de posição $\\vec{R} = \\frac{d}{dt}\\sum \\vec{v}_{i}$,\n$$\\begin{align}\n\\vec{F} = M \\ddot{\\vec{R}} &= \\frac{d}{dt} \\vec{P} \\\\\nM \\ddot{\\vec{R}} &= \\frac{d}{dt} \\sum_{i=1}^{n} m_{i}\\dot{\\vec{r}}_{i} \\\\\n\\iint M\\ddot{\\vec{R}} \\,dt &= \\int \\cancel{\\int \\frac{d}{dt}} \\left( \\sum_{i=1}^{n} m_{i} \\ddot{\\vec{r}}_{i} \\right) \\,dt \\\\\n\\end{align}$$\nUtilizando da [[Linearidade da Integração]],\n$$\\begin{align}\n\\iint M\\ddot{\\vec{R}} \\,dt &= \\sum_{i=1}^{n} \\left( \\int m_{i} \\dot{\\vec{r}}_{i} \\,dt \\right) \\\\\nM \\iint \\ddot{\\vec{R}} \\,dt &= \\sum_{i=1}^{n} \\left( m_{i} \\int \\dot{\\vec{r}}_{i} \\,dt \\right) \\\\\nM\\vec{R} &= \\sum_{i=1}^{n} \\left( m_{i} \\vec{r}_{i} \\right) \\\\\n\\vec{R} &= \\frac{1}{M}\\sum_{i=1}^{n} m_{i} \\vec{r}_{i}\n\\end{align}$$",
+      "x": 60,
+      "y": 4600,
+      "width": 440,
+      "height": 660
+    },
+    {
+      "id": "984afea2b9c427f1",
+      "type": "text",
+      "text": "$M = \\sum m_{i}$",
+      "x": 40,
+      "y": 4520,
+      "width": 141,
+      "height": 57,
+      "color": "2"
+    },
+    {
+      "id": "0db0c1d31a5dedda",
+      "type": "text",
+      "text": "$$\\frac{d}{dt} \\vec{a} = 0$$",
+      "x": -20,
+      "y": 540,
+      "width": 160,
+      "height": 120,
+      "color": "3"
+    },
+    {
+      "id": "10a2e75d579d6871",
+      "type": "text",
+      "text": "Assumindo $\\vec{a}$ constante:\n$$\\vec{v}_{1} = \\vec{v}_{0} + (\\vec{a}_{1}t_{1} - \\vec{a}_{0}t_{0})$$",
+      "x": 440,
+      "y": 560,
+      "width": 279,
+      "height": 120
+    },
+    {
+      "id": "148c95914d8dba6e",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\vec{s}(t_{1}) &= \\vec{s}_{0} + \\int_{0}^{t_{1}} (\\vec{v}_{0} + \\vec{a}t) \\, dt \\\\\n&= \\vec{s}_{0} + (\\vec{v}_{0}t_{1} - \\cancelto{0}{\\vec{v}_{0}0}) + \\int_{0}^{t_{1}} \\vec{a}t \\, dt \\\\\n&= \\vec{s}_{0} + \\vec{v}_{0}t_{1} + \\vec{a}\\int_{0}^{t_{1}} t \\, dt \\\\\n&= \\vec{s}_{0} + \\vec{v}_{0}t_{1} + \\vec{a}\\left( \\frac{1}{2}t_{1}^2 - \\cancelto{0}{\\frac{1}{2}0^2} \\right) \\\\\n&= \\vec{s}_{0} + \\vec{v}_{0}t_{1} + \\frac{1}{2}\\vec{a}t_{1}^2\n\\end{align}$$",
+      "x": 120,
+      "y": 860,
+      "width": 440,
+      "height": 400
+    },
+    {
+      "id": "9a0b830ee75fc76a",
+      "type": "text",
+      "text": "Definindo $t_{0} = 0$\n$$\\vec{v}(t) = \\vec{v}_{0} + \\vec{a}t$$",
+      "x": 460,
+      "y": 720,
+      "width": 240,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "b4ddcc9483c20e45",
+      "type": "text",
+      "text": "$$\\vec{s}(t) = \\vec{s}_{0} + \\vec{v}_{0}t + \\frac{1}{2}\\vec{a}t^2$$",
+      "x": 200,
+      "y": 1300,
+      "width": 280,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "fcf41ade315e9980",
+      "type": "text",
+      "text": "$$\\vec{r} = r \\hat{r}(\\theta)$$",
+      "x": -1340,
+      "y": -300,
+      "width": 140,
+      "height": 100
+    },
+    {
+      "id": "e92263e42f2bb7d3",
+      "type": "text",
+      "text": "A taxa de mudança de $\\vec{r}$ com respeito a $t$ define a velocidade $\\dot{\\vec{r}}(t) = \\vec{v}(t)$",
+      "x": -1160,
+      "y": -380,
+      "width": 340,
+      "height": 80,
+      "color": "2"
+    },
+    {
+      "id": "57ec1eea8f70d57e",
+      "type": "text",
+      "text": "$$\\begin{align}\n\\hat{r}(\\theta) &= \\hat{i}\\cos\\theta + \\hat{j}\\sin\\theta \\\\\n\\hat{\\theta}(\\theta) &= -\\hat{i}\\sin\\theta + \\hat{j}\\cos\\theta\n\\end{align}$$",
+      "x": -600,
+      "y": -460,
+      "width": 280,
+      "height": 140,
+      "color": "2"
+    },
+    {
+      "id": "478f365d94d35e65",
+      "type": "text",
+      "text": "O vetor $\\vec{s}(t)$ define a posição de um corpo no instante $t$ em coordenadas cartesianas.",
+      "x": 140,
+      "y": -500,
+      "width": 380,
+      "height": 80,
+      "color": "2"
+    }
+  ],
+  "edges": [
+    {
+      "id": "afd3e273ba8f5cbb",
+      "fromNode": "478f365d94d35e65",
+      "fromSide": "left",
+      "toNode": "168e2eb118bfd725",
+      "toSide": "top"
+    },
+    {
+      "id": "d9b7fcdc4216c7ca",
+      "fromNode": "168e2eb118bfd725",
+      "fromSide": "right",
+      "toNode": "36059efab307cf70",
+      "toSide": "left"
+    },
+    {
+      "id": "0d5db4030c3deded",
+      "fromNode": "afec30ad34522d04",
+      "fromSide": "bottom",
+      "toNode": "11051c4f7c5aac67",
+      "toSide": "top"
+    },
+    {
+      "id": "806da47e996c6e0a",
+      "fromNode": "36059efab307cf70",
+      "fromSide": "bottom",
+      "toNode": "f06a4374711bb8d4",
+      "toSide": "top"
+    },
+    {
+      "id": "411b0d820626d1ee",
+      "fromNode": "f06a4374711bb8d4",
+      "fromSide": "bottom",
+      "toNode": "7b889fd907b36b5a",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "9b3623b6b1083baa",
+      "fromNode": "7b889fd907b36b5a",
+      "fromSide": "bottom",
+      "toNode": "afec30ad34522d04",
+      "toSide": "top"
+    },
+    {
+      "id": "bb875076b9d79993",
+      "fromNode": "11051c4f7c5aac67",
+      "fromSide": "left",
+      "toNode": "485b668c84918f84",
+      "toSide": "bottom",
+      "toEnd": "none",
+      "color": "6"
+    },
+    {
+      "id": "f5e2d3a69bb1d4bc",
+      "fromNode": "11051c4f7c5aac67",
+      "fromSide": "bottom",
+      "toNode": "10a2e75d579d6871",
+      "toSide": "top"
+    },
+    {
+      "id": "337060d8740c47a7",
+      "fromNode": "168e2eb118bfd725",
+      "fromSide": "bottom",
+      "toNode": "590971c39451ab67",
+      "toSide": "top"
+    },
+    {
+      "id": "dcf489d1b31202e0",
+      "fromNode": "c40c55d5fd76ba71",
+      "fromSide": "bottom",
+      "toNode": "654d103c26b632ea",
+      "toSide": "top"
+    },
+    {
+      "id": "22fce7037476093d",
+      "fromNode": "485b668c84918f84",
+      "fromSide": "bottom",
+      "toNode": "654d103c26b632ea",
+      "toSide": "right",
+      "toEnd": "none",
+      "color": "6"
+    },
+    {
+      "id": "2766d488a231002c",
+      "fromNode": "654d103c26b632ea",
+      "fromSide": "bottom",
+      "toNode": "148c95914d8dba6e",
+      "toSide": "top"
+    },
+    {
+      "id": "7830ebdbc57359ff",
+      "fromNode": "9a0b830ee75fc76a",
+      "fromSide": "left",
+      "toNode": "148c95914d8dba6e",
+      "toSide": "top"
+    },
+    {
+      "id": "2a1074ec203ec8c0",
+      "fromNode": "478f365d94d35e65",
+      "fromSide": "right",
+      "toNode": "36059efab307cf70",
+      "toSide": "top"
+    },
+    {
+      "id": "3ae6757fe5fdfe05",
+      "fromNode": "10a2e75d579d6871",
+      "fromSide": "bottom",
+      "toNode": "9a0b830ee75fc76a",
+      "toSide": "top"
+    },
+    {
+      "id": "2bbc65c3f8a8dc47",
+      "fromNode": "148c95914d8dba6e",
+      "fromSide": "bottom",
+      "toNode": "b4ddcc9483c20e45",
+      "toSide": "top"
+    },
+    {
+      "id": "486d96e00f01cdc4",
+      "fromNode": "590971c39451ab67",
+      "fromSide": "bottom",
+      "toNode": "523906696324e53a",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "f52bc45ab936781a",
+      "fromNode": "523906696324e53a",
+      "fromSide": "bottom",
+      "toNode": "c40c55d5fd76ba71",
+      "toSide": "top"
+    },
+    {
+      "id": "e0d0d072d7e00003",
+      "fromNode": "253002c2f3f93ab4",
+      "fromSide": "bottom",
+      "toNode": "fcf41ade315e9980",
+      "toSide": "top",
+      "toEnd": "none",
+      "color": "2"
+    },
+    {
+      "id": "f62dd372738ea3f9",
+      "fromNode": "478f365d94d35e65",
+      "fromSide": "bottom",
+      "toNode": "f9cf5d23f10ed07f",
+      "toSide": "top"
+    },
+    {
+      "id": "58da5cb9cf4a9b03",
+      "fromNode": "253002c2f3f93ab4",
+      "fromSide": "right",
+      "toNode": "da8a01d09da4a468",
+      "toSide": "left",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "f33f27f879be050e",
+      "fromNode": "478f365d94d35e65",
+      "fromSide": "left",
+      "toNode": "da8a01d09da4a468",
+      "toSide": "right",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "b7ecd7f8334e286a",
+      "fromNode": "7505048e0b1add48",
+      "fromSide": "bottom",
+      "toNode": "6d10cd6b5ef7a3a5",
+      "toSide": "top"
+    },
+    {
+      "id": "8d1abfd5e9423c39",
+      "fromNode": "3d4d7522ac04230c",
+      "fromSide": "bottom",
+      "toNode": "657ca7eee66d09ee",
+      "toSide": "right"
+    },
+    {
+      "id": "875dcf3ac3f5d81f",
+      "fromNode": "a4926c5038052b94",
+      "fromSide": "bottom",
+      "toNode": "657ca7eee66d09ee",
+      "toSide": "right"
+    },
+    {
+      "id": "bba17bc485a2d570",
+      "fromNode": "da8a01d09da4a468",
+      "fromSide": "bottom",
+      "toNode": "57ec1eea8f70d57e",
+      "toSide": "top"
+    },
+    {
+      "id": "2dbd9a6c2459ab74",
+      "fromNode": "657ca7eee66d09ee",
+      "fromSide": "top",
+      "toNode": "6d10cd6b5ef7a3a5",
+      "toSide": "top"
+    },
+    {
+      "id": "f25e26f13270b556",
+      "fromNode": "57ec1eea8f70d57e",
+      "fromSide": "bottom",
+      "toNode": "3d4d7522ac04230c",
+      "toSide": "top"
+    },
+    {
+      "id": "a7b283753211807f",
+      "fromNode": "57ec1eea8f70d57e",
+      "fromSide": "bottom",
+      "toNode": "a4926c5038052b94",
+      "toSide": "top"
+    },
+    {
+      "id": "f5c7eeecac257752",
+      "fromNode": "e92263e42f2bb7d3",
+      "fromSide": "left",
+      "toNode": "54fbc7d90977f8a2",
+      "toSide": "right"
+    },
+    {
+      "id": "9fd15f46aca29eb9",
+      "fromNode": "253002c2f3f93ab4",
+      "fromSide": "right",
+      "toNode": "e92263e42f2bb7d3",
+      "toSide": "top"
+    },
+    {
+      "id": "c1908166fe3dc708",
+      "fromNode": "253002c2f3f93ab4",
+      "fromSide": "left",
+      "toNode": "54fbc7d90977f8a2",
+      "toSide": "top"
+    },
+    {
+      "id": "a4a216b6db531015",
+      "fromNode": "e92263e42f2bb7d3",
+      "fromSide": "bottom",
+      "toNode": "7505048e0b1add48",
+      "toSide": "right",
+      "toEnd": "none",
+      "color": "2"
+    },
+    {
+      "id": "97b62073366930c7",
+      "fromNode": "54fbc7d90977f8a2",
+      "fromSide": "bottom",
+      "toNode": "bbb3a630e233e330",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "2"
+    },
+    {
+      "id": "5dcf0328274519d2",
+      "fromNode": "6d10cd6b5ef7a3a5",
+      "fromSide": "bottom",
+      "toNode": "bbb3a630e233e330",
+      "toSide": "top"
+    },
+    {
+      "id": "6f1d3f3fedd8ffd8",
+      "fromNode": "657ca7eee66d09ee",
+      "fromSide": "bottom",
+      "toNode": "5100a1454df72984",
+      "toSide": "top"
+    },
+    {
+      "id": "41cc24d60206feb7",
+      "fromNode": "bbb3a630e233e330",
+      "fromSide": "bottom",
+      "toNode": "5100a1454df72984",
+      "toSide": "top"
+    },
+    {
+      "id": "7db72f88fa8c6e51",
+      "fromNode": "5100a1454df72984",
+      "fromSide": "bottom",
+      "toNode": "a8b12787b29b052d",
+      "toSide": "top"
+    },
+    {
+      "id": "6aba2ba424d5cf71",
+      "fromNode": "8a89b9e86662f802",
+      "fromSide": "top",
+      "toNode": "cb7bc53fac4ad1f6",
+      "toSide": "bottom"
+    },
+    {
+      "id": "22a8b9419e80ba40",
+      "fromNode": "fcf41ade315e9980",
+      "fromSide": "bottom",
+      "toNode": "7505048e0b1add48",
+      "toSide": "top"
+    },
+    {
+      "id": "32ffd81e1bc9a3d1",
+      "fromNode": "3a460e2176f0ade7",
+      "fromSide": "bottom",
+      "toNode": "6d10cd6b5ef7a3a5",
+      "toSide": "right",
+      "toEnd": "none",
+      "color": "6"
+    },
+    {
+      "id": "ae3e1f3e4b536296",
+      "fromNode": "c8dcc488237698b2",
+      "fromSide": "right",
+      "toNode": "0fd88ab2ac0f92d8",
+      "toSide": "left"
+    },
+    {
+      "id": "880240aaf037279e",
+      "fromNode": "0fd88ab2ac0f92d8",
+      "fromSide": "right",
+      "toNode": "783461ec89e9635d",
+      "toSide": "top"
+    },
+    {
+      "id": "0d2e813b9a77f201",
+      "fromNode": "83baf90b50187f82",
+      "fromSide": "bottom",
+      "toNode": "783461ec89e9635d",
+      "toSide": "top"
+    },
+    {
+      "id": "78f002d1fd43f430",
+      "fromNode": "0833b77acd03b8b0",
+      "fromSide": "bottom",
+      "toNode": "7ac99b5d8b0a4a2a",
+      "toSide": "top"
+    },
+    {
+      "id": "e9cd435b80cd460d",
+      "fromNode": "84e26e89b2fbf35b",
+      "fromSide": "right",
+      "toNode": "7ac99b5d8b0a4a2a",
+      "toSide": "top"
+    },
+    {
+      "id": "6d457f3986c92b87",
+      "fromNode": "7ac99b5d8b0a4a2a",
+      "fromSide": "right",
+      "toNode": "de94596f31ec7e08",
+      "toSide": "top"
+    },
+    {
+      "id": "57f73bf3402d9066",
+      "fromNode": "0154e5ab4231163e",
+      "fromSide": "bottom",
+      "toNode": "de94596f31ec7e08",
+      "toSide": "top"
+    },
+    {
+      "id": "432904ecf7c969d4",
+      "fromNode": "de94596f31ec7e08",
+      "fromSide": "bottom",
+      "toNode": "007b2a228c99394d",
+      "toSide": "top"
+    },
+    {
+      "id": "24ba4fa83428abb3",
+      "fromNode": "007b2a228c99394d",
+      "fromSide": "bottom",
+      "toNode": "04cf039dd4ddb568",
+      "toSide": "top"
+    },
+    {
+      "id": "6ed02c151c5932d3",
+      "fromNode": "7ac99b5d8b0a4a2a",
+      "fromSide": "bottom",
+      "toNode": "985f21f38e0d0e85",
+      "toSide": "top",
+      "toEnd": "none",
+      "color": "1"
+    },
+    {
+      "id": "ba5cb9eae399d237",
+      "fromNode": "985f21f38e0d0e85",
+      "fromSide": "right",
+      "toNode": "04cf039dd4ddb568",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "6"
+    },
+    {
+      "id": "32b3ef3e31a466f2",
+      "fromNode": "04cf039dd4ddb568",
+      "fromSide": "bottom",
+      "toNode": "2f6639db5d25da50",
+      "toSide": "top"
+    },
+    {
+      "id": "8446332fc0928959",
+      "fromNode": "007b2a228c99394d",
+      "fromSide": "right",
+      "toNode": "edb9abe6575eb7a5",
+      "toSide": "top"
+    },
+    {
+      "id": "8b1662b75daa99a1",
+      "fromNode": "edb9abe6575eb7a5",
+      "fromSide": "left",
+      "toNode": "04cf039dd4ddb568",
+      "toSide": "top"
+    },
+    {
+      "id": "d27b022b8a3f25bf",
+      "fromNode": "64a8ded7f75a2c03",
+      "fromSide": "bottom",
+      "toNode": "04cf039dd4ddb568",
+      "toSide": "top"
+    },
+    {
+      "id": "4cc576b1b8671c97",
+      "fromNode": "2f6639db5d25da50",
+      "fromSide": "bottom",
+      "toNode": "155c0f42ea324d6b",
+      "toSide": "right"
+    },
+    {
+      "id": "a44f33236f0d770b",
+      "fromNode": "984afea2b9c427f1",
+      "fromSide": "right",
+      "toNode": "2f6639db5d25da50",
+      "toSide": "top"
+    },
+    {
+      "id": "c64f870f1aa984cc",
+      "fromNode": "22dc2bf981c1908e",
+      "fromSide": "right",
+      "toNode": "0833b77acd03b8b0",
+      "toSide": "left"
+    },
+    {
+      "id": "67139e8ab74014ce",
+      "fromNode": "9d59307f604e6119",
+      "fromSide": "right",
+      "toNode": "007b2a228c99394d",
+      "toSide": "top"
+    },
+    {
+      "id": "b10b5f49bd4a2241",
+      "fromNode": "2f6639db5d25da50",
+      "fromSide": "bottom",
+      "toNode": "56e7e6141d8a6a5a",
+      "toSide": "top"
+    },
+    {
+      "id": "fe77acefbc4b8bbf",
+      "fromNode": "56e7e6141d8a6a5a",
+      "fromSide": "bottom",
+      "toNode": "e86929dc2af4e3ce",
+      "toSide": "top"
+    },
+    {
+      "id": "55350a660a93fa1a",
+      "fromNode": "7ea00172ed4dff4b",
+      "fromSide": "left",
+      "toNode": "e86929dc2af4e3ce",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
